@@ -1,0 +1,727 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Re",
+				"RestaurantLocation\tclass"
+			],
+			[
+				"get",
+				"get_object_or_404\tmodule"
+			],
+			[
+				"rest",
+				"rest_id"
+			],
+			[
+				"Res",
+				"RestaurantLocation"
+			],
+			[
+				"Restar",
+				"RestaurantListView"
+			],
+			[
+				"re",
+				"restaurants_list"
+			],
+			[
+				"con",
+				"context\tstatement"
+			],
+			[
+				"view",
+				"View"
+			],
+			[
+				"c",
+				"class\tNew Class"
+			],
+			[
+				"html",
+				"html_var"
+			],
+			[
+				"htm",
+				"html_"
+			],
+			[
+				"m",
+				"meta\tTag"
+			],
+			[
+				"ob",
+				"objects"
+			],
+			[
+				"ran",
+				"random_string_generator"
+			],
+			[
+				"rer",
+				"restaurant_listview"
+			],
+			[
+				"for",
+				"forms\tmodule"
+			],
+			[
+				"fo",
+				"forms"
+			],
+			[
+				"rl",
+				"rl_post_save_receiver\tfunction"
+			],
+			[
+				"po",
+				"post_save\tmodule"
+			],
+			[
+				"r",
+				"rl_pre_save_receiver"
+			],
+			[
+				"in",
+				"instance\tparam"
+			],
+			[
+				"q",
+				"qs_exists\tstatement"
+			],
+			[
+				"R",
+				"RestaurantLocation\tclass"
+			],
+			[
+				"p",
+				"print"
+			],
+			[
+				"f",
+				"from"
+			],
+			[
+				"se",
+				"self\tparam"
+			],
+			[
+				"as",
+				"as_view"
+			],
+			[
+				"mo",
+				"models\tmodule"
+			],
+			[
+				"t",
+				"TemplateView\tmodule"
+			],
+			[
+				"C",
+				"CharField"
+			],
+			[
+				"mod",
+				"models"
+			],
+			[
+				"T",
+				"TemplateView"
+			],
+			[
+				"su",
+				"super\tclass"
+			],
+			[
+				"a",
+				"about"
+			],
+			[
+				"home",
+				"home3"
+			],
+			[
+				"h",
+				"home3\tfunction"
+			],
+			[
+				"rand",
+				"randint\tstatement"
+			],
+			[
+				"ht",
+				"html_"
+			],
+			[
+				"if",
+				"if\tif …"
+			],
+			[
+				"wp_e",
+				"wp_enqueue_script\tWP Function"
+			],
+			[
+				"get_tem",
+				"get_template_directory_uri\tWP Function"
+			],
+			[
+				"wp_re",
+				"wp_register_script\tWP Function"
+			],
+			[
+				"wp_en",
+				"wp_enqueue_scripts\tWP Function"
+			],
+			[
+				"add",
+				"add_action\tWP Function"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"rou",
+				"Route"
+			],
+			[
+				"comm",
+				"comments"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"post",
+				"posts"
+			],
+			[
+				"sea",
+				"searchLink"
+			],
+			[
+				"err",
+				"errorThrown"
+			],
+			[
+				"j",
+				"jqxhr"
+			],
+			[
+				"sear",
+				"searchLink"
+			],
+			[
+				"sae",
+				"searchRequest"
+			],
+			[
+				"the",
+				"theForm"
+			],
+			[
+				"val",
+				"value"
+			],
+			[
+				"v",
+				"value"
+			],
+			[
+				"rea",
+				"ready\tdocument.ready - $(function(){})"
+			],
+			[
+				"lo",
+				"log"
+			],
+			[
+				"A",
+				"action\tAttr"
+			],
+			[
+				"do",
+				"document"
+			],
+			[
+				"w",
+				"while"
+			],
+			[
+				"s",
+				"searchLink"
+			],
+			[
+				"erro",
+				"errors"
+			],
+			[
+				"bo",
+				"body"
+			],
+			[
+				"ti",
+				"title"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"Pos",
+				"PostsController"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"form",
+				"form-control"
+			],
+			[
+				"l",
+				"luckyNumber"
+			],
+			[
+				"task",
+				"task_id"
+			],
+			[
+				"Ta",
+				"Task"
+			],
+			[
+				"comp",
+				"completed"
+			],
+			[
+				"co",
+				"compact"
+			],
+			[
+				"vi",
+				"view"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"sa",
+				"searchRequest"
+			],
+			[
+				"ret",
+				"return"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 184.0,
+		"last_filter": "toggle men",
+		"selected_items":
+		[
+			[
+				"toggle men",
+				"View: Toggle Menu"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"blade",
+				"Set Syntax: Laravel Blade"
+			],
+			[
+				"package insta",
+				"Package Control: Install Package"
+			],
+			[
+				"larave",
+				"Set Syntax: Laravel Blade"
+			]
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/C/MyProjects/Python/TryDjango1-11/src/restaurants/templates/restaurants/restaurants_list.html",
+		"/C/MyProjects/Python/TryDjango1-11/src/templates/snippets/nav.html",
+		"/C/MyProjects/Python/TryDjango1-11/src/muypicky/settings/base.py",
+		"/C/MyProjects/Python/TryDjango1-11/src/muypicky/urls.py",
+		"/C/MyProjects/Python/TryDjango1-11/src/templates/contact.html",
+		"/C/MyProjects/Python/TryDjango1-11/src/templates/about.html",
+		"/C/MyProjects/Python/TryDjango1-11/src/templates/home.html",
+		"/C/MyProjects/Python/TryDjango1-11/src/templates/snippets/sidebar.html",
+		"/C/MyProjects/Python/TryDjango1-11/src/templates/snippets/js.html",
+		"/C/MyProjects/Python/TryDjango1-11/src/templates/snippets/css.html",
+		"/C/MyProjects/Python/TryDjango1-11/src/templates/base.html",
+		"/C/MyProjects/Python/TryDjango1-11/src/muypicky/settings/__init__.py",
+		"/C/Users/hahan/Desktop/page.html",
+		"/C/OpenServer/domains/trydjango1-11/src/muypicky/urls.py",
+		"/C/MyProjects/Python/TryDjango1-11/README.md",
+		"/C/OpenServer/domains/trydjango1-11/src/restaurants/views.py",
+		"/C/OpenServer/domains/trydjango1-11/src/restaurants/templates/restaurants/form.html",
+		"/C/OpenServer/domains/trydjango1-11/src/restaurants/forms.py",
+		"/C/OpenServer/domains/trydjango1-11/src/restaurants/models.py",
+		"/C/OpenServer/domains/trydjango1-11/src/restaurants/utils.py",
+		"/C/Users/hahan/Downloads/hackmd_history_20180107132308.json",
+		"/C/OpenServer/domains/trydjango1-11/src/restaurants/templates/restaurants/restaurantlocation_detail.html",
+		"/C/OpenServer/domains/trydjango1-11/src/restaurants/templates/restaurants/restaurantlocation_list.html",
+		"/C/OpenServer/domains/yourihdx.github.io/README.md",
+		"/C/OpenServer/domains/trydjango1-11/Lib/site-packages/django/views/generic/list.py",
+		"/C/OpenServer/domains/trydjango1-11/src/muypicky/settings/base.py",
+		"/C/Users/hahan/Dropbox/Заметки/2017/Антисписок Октябрь - Декабрь 2017.md",
+		"/C/OpenServer/domains/trydjango1-11/src/restaurants/admin.py",
+		"/C/OpenServer/domains/trydjango1-11/src/templates/about.html",
+		"/C/OpenServer/domains/trydjango1-11/src/muypicky/settings/__init__.py",
+		"/C/OpenServer/domains/trydjango1-11/src/templates/contact.html",
+		"/C/OpenServer/domains/trydjango1-11/src/templates/home.html",
+		"/C/OpenServer/domains/trydjango1-11/src/templates/base.html",
+		"/C/OpenServer/domains/trydjango1-11/src/templates/snippets/sidebar.html",
+		"/C/OpenServer/domains/trydjango1-11/src/templates/snippets/css.html",
+		"/C/OpenServer/domains/trydjango1-11/src/templates/snippets/js.html",
+		"/C/OpenServer/domains/trydjango1-11/src/templates/snippets/nav.html",
+		"/C/OpenServer/domains/trydjango1-11/src/muypicky/settings/local.py",
+		"/C/OpenServer/domains/trydjango1-11/src/muypicky/settings/production.py",
+		"/C/OpenServer/domains/site-for-julia/about.html",
+		"/C/OpenServer/domains/site-for-julia/contacts.html",
+		"/C/OpenServer/domains/site-for-julia/index.html",
+		"/C/Users/hahan/AppData/Local/Temp/scp35589/site/wwwroot/robots.txt",
+		"/C/Users/hahan/AppData/Local/Temp/scp20025/site/wwwroot/hostingstart.html",
+		"/C/Users/hahan/AppData/Local/Temp/scp34544/site/wwwroot/robots.txt",
+		"/C/Users/hahan/AppData/Local/Temp/scp10226/site/wwwroot/DatabaseFun/urls.py",
+		"/C/Users/hahan/AppData/Local/Temp/scp09515/site/wwwroot/DjangoApp/urls.py",
+		"/C/Users/hahan/AppData/Local/Temp/scp10176/site/wwwroot/DatabaseFun/urls.pyc",
+		"/C/OpenServer/domains/laravel-blog.local/routes/web.php",
+		"/C/OpenServer/domains/laravel-blog.local/.env",
+		"/C/OpenServer/domains/laravel-blog.local/app/Http/Controllers/SessionsController.php",
+		"/C/OpenServer/domains/laravel-blog.local/app/Http/Controllers/RegistrationController.php",
+		"/C/OpenServer/domains/auth-example.local/routes/web.php",
+		"/C/Users/hahan/AppData/Local/Temp/scp07311/home/bitrix/www/bitrix/templates/inner/header.php",
+		"/C/Users/hahan/AppData/Local/Temp/scp51437/home/bitrix/www/bitrix/templates/.default/include/header.php",
+		"/C/Users/hahan/AppData/Local/Temp/scp32490/home/bitrix/www/bitrix/templates/main/header.php",
+		"/C/Users/hahan/AppData/Local/Temp/scp09193/home/bitrix/www/bitrix/php_interface/include/site_closed.php",
+		"/C/Users/hahan/AppData/Local/Temp/scp09457/home/bitrix/www/bitrix/php_interface/init.php",
+		"/C/Users/hahan/AppData/Local/Temp/scp32822/home/bitrix/www/bitrix/templates/.default/header.php",
+		"/C/Users/hahan/AppData/Local/Temp/scp11053/home/bitrix/www/bitrix/php_interface/include/functions.php",
+		"/C/Users/hahan/AppData/Local/Temp/scp42399/home/bitrix/www/index.php",
+		"/C/Users/hahan/AppData/Local/Temp/scp00576/home/bitrix/www/bitrix/templates/main/footer.php",
+		"/C/Users/hahan/AppData/Local/Temp/scp04887/home/bitrix/www/bitrix/php_interface/s1/init.php",
+		"/C/Users/hahan/AppData/Local/Temp/scp10667/home/bitrix/www/bitrix/php_interface/init.php",
+		"/C/Users/hahan/AppData/Local/Temp/scp10634/home/bitrix/www/bitrix/php_interface/include/functions.php",
+		"/C/MyProjects/Bitrix/k1_less3/Материалы/HTML/template_style.css",
+		"/C/MyProjects/Bitrix/Интеграция дизайна - моё обучение/home/bitrix/www/bitrix/templates/.default/images/hd_bg.png",
+		"/C/MyProjects/Bitrix/Интеграция дизайна - моё обучение/home/bitrix/www/bitrix/templates/.default/images/bc_arrow.png",
+		"/C/MyProjects/Python/pyProject1/статуя.txt",
+		"/C/OpenServer/domains/auth-example.local/app/Http/Controllers/HomeController.php",
+		"/C/OpenServer/domains/auth-example.local/config/database.php",
+		"/C/OpenServer/domains/auth-example.local/.env",
+		"/C/OpenServer/domains/auth-example.local/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php",
+		"/C/Users/hahan/AppData/Local/Temp/scp46633/home/bitrix/www/company/.left.menu.php",
+		"/C/Users/hahan/AppData/Local/Temp/scp33974/home/bitrix/www/company/otzyvy-o-kompanii.php",
+		"/C/Users/hahan/AppData/Local/Temp/scp27051/home/bitrix/www/.top.menu.php",
+		"/C/Users/hahan/AppData/Local/Temp/scp49558/home/bitrix/www/company/vacancies.php",
+		"/C/Users/hahan/AppData/Local/Temp/scp18176/home/bitrix/www/.section.php",
+		"/C/Users/hahan/AppData/Local/Temp/scp43238/home/bitrix/www/company/.top.menu.php",
+		"/C/OpenServer/domains/wp-test.local/wp-content/themes/udemy/index.php",
+		"/C/OpenServer/domains/wp-test.local/wp-content/themes/udemy/includes/front/enqueue.php",
+		"/C/OpenServer/domains/wp-test.local/wp-content/themes/udemy/functions.php",
+		"/C/OpenServer/domains/wp-test.local/wp-content/themes/udemy/style.css",
+		"/C/Users/hahan/AppData/Local/Temp/scp57143/home/bitrix/www/bitrix/php_interface/init.php",
+		"/C/Users/hahan/AppData/Local/Temp/scp03541/home/bitrix/www/bitrix/php_interface/include/functions.php",
+		"/C/Users/hahan/AppData/Local/Temp/scp13511/home/bitrix/www/index.php",
+		"/C/OpenServer/domains/yourihza-bget-ru.local/app/code/local/Yourihdx/Helloworld/controllers/IndexController.php",
+		"/C/OpenServer/domains/yourihza-bget-ru.local/app/code/local/Yourihdx/Helloworld/etc/config.xml",
+		"/C/OpenServer/domains/yourihza-bget-ru.local/app/etc/modules/Yourihdx_Helloworld.xml",
+		"/C/Users/hahan/AppData/Local/Temp/scp31173/home/bitrix/www/news/index.php",
+		"/C/OpenServer/domains/yourihza-bget-ru.local/app/etc/config.xml",
+		"/C/OpenServer/domains/yourihza-bget-ru.local/app/etc/local.xml",
+		"/C/OpenServer/domains/yourihza-bget-ru.local/app/etc/local.xml.additional",
+		"/C/OpenServer/domains/yourihza-bget-ru.local/app/design/frontend/bookstore/default/layout/local.xml",
+		"/C/OpenServer/domains/laravel-blog.local/app/Post.php",
+		"/C/OpenServer/domains/laravel-blog.local/app/Http/Controllers/PostsController.php",
+		"/C/OpenServer/domains/laravel-blog.local/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php",
+		"/C/OpenServer/domains/laravel-blog.local/resources/views/posts/show.blade.php",
+		"/C/OpenServer/domains/laravel-blog.local/app/Comment.php",
+		"/C/OpenServer/domains/laravel-blog.local/resources/assets/sass/app.scss",
+		"/C/OpenServer/domains/laravel-blog.local/app/Model.php",
+		"/C/OpenServer/domains/laravel-blog.local/database/migrations/2017_09_30_103410_create_comments_table.php",
+		"/C/OpenServer/domains/laravel-blog.local/resources/views/layouts/head.blade.php",
+		"/C/OpenServer/domains/laravel-blog.local/public/css/app.css",
+		"/C/OpenServer/domains/laravel-blog.local/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php",
+		"/C/OpenServer/domains/laravel-blog.local/resources/views/posts/post.blade.php",
+		"/C/OpenServer/domains/laravel-blog.local/public/robots.txt",
+		"/C/OpenServer/domains/laravel-blog.local/resources/views/layouts/nav.blade.php",
+		"/C/OpenServer/domains/laravel-blog.local/vendor/laravel/framework/src/Illuminate/Support/Carbon.php",
+		"/C/OpenServer/domains/laravel-blog.local/config/app.php",
+		"/C/OpenServer/domains/laravel-blog.local/resources/views/posts/index.blade.php",
+		"/C/OpenServer/domains/yourihza-bget-ru.local/.htaccess",
+		"/C/OpenServer/domains/laravel-blog.local/database/migrations/2017_09_22_101537_create_posts_table.php",
+		"/C/Portable Programs/Sublime Text Build 3143 x86/Data/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/OpenServer/domains/laravel-blog.local/resources/views/layouts/footer.blade.php",
+		"/C/OpenServer/domains/laravel-blog.local/resources/views/layouts/master.blade.php",
+		"/C/OpenServer/domains/laravel-blog.local/public/css/blog.css",
+		"/C/OpenServer/domains/laravel-blog.local/resources/views/layouts/sidebar.blade.php",
+		"/C/OpenServer/domains/laravel-blog.local/resources/views/layouts/helloworld.blade.php",
+		"/C/OpenServer/domains/laravel-blog.local/resources/views/layouts/master.blade.php_",
+		"/C/OpenServer/domains/laravel-blog.local/resources/views/about.blade.php",
+		"/C/OpenServer/domains/laravel-blog.local/resources/views/tasks/show.blade.php",
+		"/C/OpenServer/domains/laravel-blog.local/resources/views/tasks/index.blade.php",
+		"/C/OpenServer/domains/laravel-blog.local/app/Http/Controllers/TasksController.php",
+		"/C/OpenServer/domains/js-mm.local/js/1-stringtodate.html",
+		"/C/OpenServer/domains/laravel-blog.local/public/css/album.css",
+		"/C/OpenServer/domains/laravel-blog.local/public/index.php",
+		"/C/OpenServer/domains/laravel-blog.local/app/Task.php"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 37.0
+	},
+	"input":
+	{
+		"height": 68.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.GoSublime-main-output":
+	{
+		"height": 168.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "fcc-twitch-client.sublime-project",
+	"replace":
+	{
+		"height": 70.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				".",
+				".env"
+			],
+			[
+				"web",
+				"routes\\web.php"
+			],
+			[
+				"checkfor",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode.php"
+			],
+			[
+				"local.xml",
+				"app\\design\\frontend\\bookstore\\default\\layout\\local.xml"
+			],
+			[
+				"local",
+				"app\\etc\\local.xml"
+			],
+			[
+				"posts/cr",
+				"resources\\views\\posts\\create.blade.php"
+			],
+			[
+				"posts/sho",
+				"resources\\views\\posts\\show.blade.php"
+			],
+			[
+				"show",
+				"resources\\views\\posts\\show.blade.php"
+			],
+			[
+				"elbuilder",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php"
+			],
+			[
+				"carbon",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Support\\Carbon.php"
+			],
+			[
+				"postc",
+				"app\\Http\\Controllers\\PostsController.php"
+			],
+			[
+				"post",
+				"app\\Http\\Controllers\\PostsController.php"
+			],
+			[
+				"we",
+				"routes\\web.php"
+			],
+			[
+				"posts",
+				"app\\Http\\Controllers\\PostsController.php"
+			],
+			[
+				"view",
+				"config\\view.php"
+			],
+			[
+				"date",
+				"config\\database.php"
+			],
+			[
+				"wel",
+				"resources\\views\\welcome.blade.php"
+			],
+			[
+				"",
+				"routes\\web.php"
+			],
+			[
+				"w",
+				"routes\\web.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 326.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
