@@ -1,0 +1,26 @@
+#heading{
+	clear: both;
+}
+#buttons-block{
+	 margin-left: auto;
+	 margin-right: 0;
+	 vertical-align: middle;
+	 width: 120px;
+	 margin-top: 20px;
+}
+
+#all, #online {
+	margin-bottom: 2px;
+}
+
+div#all:hover{
+	background: #00f28f;
+} 
+
+div#online:hover{
+	background: #00f28f;
+}
+
+div#offline:hover{
+	background: #00f28f;
+}
