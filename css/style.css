@@ -1,3 +1,5 @@
+
+
 #heading{
 	clear: both;
 }
@@ -8,31 +10,35 @@
 	 margin-top: 20px;
 }
 
-#all, #online, #offline {
-	
+.twitch-link {
+	width: 80px;
 	margin-left: auto;
 	margin-right: 0;
 	margin-bottom: 2px;
 
-	width: 80px;
 }
 
-#all{
+.twitch-link.active{
+	color: #fff;
+	width: 120px;
+}
+
+.all{
 	color: #007AC1;
 	background: #007AC1;
 }
 
-#online{
+.online{
 	color: #20A148;
 	background: #20A148;
 }
 
-#offline{
+.offline{
 	color: #aaa;
 	background: #aaa;
 }
 
-div#offline:hover, div#online:hover, div#all:hover{
+div.offline:hover, div.online:hover, div.all:hover{
 	color: #fff;
 	background: #00f28f;
 	width: 120px;
@@ -42,3 +48,4 @@ div#offline:hover, div#online:hover, div#all:hover{
 a:hover {
 	text-decoration: none;
 	}
+
