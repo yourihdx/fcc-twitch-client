@@ -331,7 +331,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 2527,
+				"buffer_size": 2492,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -358,7 +358,7 @@
 			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 185,
+				"buffer_size": 575,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -565,7 +565,7 @@
 	],
 	"find":
 	{
-		"height": 48.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -611,7 +611,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2527,
+						"buffer_size": 2492,
 						"regions":
 						{
 						},
@@ -700,15 +700,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 185,
+						"buffer_size": 575,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								180,
-								180
+								566,
+								566
 							]
 						],
 						"settings":
@@ -719,7 +719,7 @@
 							"syntax": "Packages/CSS/CSS.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 468.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -771,7 +771,7 @@
 	"project": "fcc-twitch-client.sublime-project",
 	"replace":
 	{
-		"height": 88.0
+		"height": 66.0
 	},
 	"save_all_on_build": true,
 	"select_file":
