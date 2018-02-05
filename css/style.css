@@ -11,7 +11,7 @@
 }
 
 .twitch-link {
-	width: 80px;
+	width: 100px;
 	margin-left: auto;
 	margin-right: 0;
 	margin-bottom: 2px;
@@ -20,7 +20,7 @@
 
 .twitch-link.active{
 	color: #fff;
-	width: 120px;
+	width: 140px;
 }
 
 .all{
@@ -41,7 +41,7 @@
 div.offline:hover, div.online:hover, div.all:hover{
 	color: #fff;
 	background: #00f28f;
-	width: 120px;
+	width: 140px;
 	transition: background 2s, color 2s, width 1.5s;
 }
 
