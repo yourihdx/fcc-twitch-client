@@ -10,3 +10,9 @@ $('#buttons-block').find('.twitch-link').on('click', function () {
 
      $(this).addClass('active');
 });
+
+// https://wind-bow.glitch.me/twitch-api 
+
+$.getJSON('https://wind-bow.glitch.me/twitch-api/streams/freecodecamp?callback=?', function(data) {
+  console.log(data);
+});
