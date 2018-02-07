@@ -13,6 +13,6 @@ $('#buttons-block').find('.twitch-link').on('click', function () {
 
 // https://wind-bow.glitch.me/twitch-api 
 
-$.getJSON('https://wind-bow.glitch.me/twitch-api/streams/freecodecamp?callback=?', function(data) {
+$.getJSON('https://wind-bow.glitch.me/twitch-api/streams/Starladder1?callback=?', function(data) {
   console.log(data);
 });
