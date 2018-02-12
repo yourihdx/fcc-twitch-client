@@ -331,9 +331,20 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 2492,
+				"buffer_size": 2765,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nWordPress Completions\n---------------------\n\n  Version 4.9.4+1.0\n  -----------------------------------------\n  \n  WordPress 4.9.4\n",
+			"settings":
+			{
+				"buffer_size": 181,
+				"line_ending": "Windows",
+				"name": "Package Control Messages",
+				"read_only": true,
+				"scratch": true
 			}
 		},
 		{
@@ -349,16 +360,7 @@
 			"file": "js/script.js",
 			"settings":
 			{
-				"buffer_size": 21,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "css/style.css",
-			"settings":
-			{
-				"buffer_size": 575,
+				"buffer_size": 441,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -434,6 +436,8 @@
 	],
 	"file_history":
 	[
+		"/C/MyProjects/JavaScript/fccTwitchClient/css/style.css",
+		"/C/Portable Programs/Sublime Text Build 3143 x86/Data/Packages/GoSublime/CHANGELOG.md",
 		"/C/MyProjects/Python/TryDjango1-11/src/restaurants/templates/restaurants/restaurants_list.html",
 		"/C/MyProjects/Python/TryDjango1-11/src/templates/snippets/nav.html",
 		"/C/MyProjects/Python/TryDjango1-11/src/muypicky/settings/base.py",
@@ -559,13 +563,11 @@
 		"/C/OpenServer/domains/laravel-blog.local/resources/views/tasks/index.blade.php",
 		"/C/OpenServer/domains/laravel-blog.local/app/Http/Controllers/TasksController.php",
 		"/C/OpenServer/domains/js-mm.local/js/1-stringtodate.html",
-		"/C/OpenServer/domains/laravel-blog.local/public/css/album.css",
-		"/C/OpenServer/domains/laravel-blog.local/public/index.php",
-		"/C/OpenServer/domains/laravel-blog.local/app/Task.php"
+		"/C/OpenServer/domains/laravel-blog.local/public/css/album.css"
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -602,7 +604,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -611,25 +613,30 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2492,
+						"buffer_size": 2765,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								962,
-								962
+								2491,
+								2491
 							]
 						],
 						"settings":
 						{
 							"markdonw_live_preview_last_run": 1517720278.68,
 							"open_with_edit": true,
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"rulers":
+							[
+								80
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"wrap_width": 0
 						},
 						"translation.x": 0.0,
-						"translation.y": 216.0,
+						"translation.y": 1464.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -637,6 +644,37 @@
 				},
 				{
 					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 181,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								181,
+								181
+							]
+						],
+						"settings":
+						{
+							"auto_indent": false,
+							"default_dir": "C:\\MyProjects\\JavaScript\\fccTwitchClient",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_width": 2,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
 					"file": "README.md",
 					"semi_transient": false,
 					"settings":
@@ -661,24 +699,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 3,
 					"file": "js/script.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 21,
+						"buffer_size": 441,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								21,
-								21
+								397,
+								397
 							]
 						],
 						"settings":
@@ -691,38 +729,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "css/style.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 575,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								566,
-								566
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/3024 Day.tmTheme",
-							"markdonw_live_preview_last_run": 1517720809.14,
-							"open_with_edit": true,
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 468.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -730,7 +737,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 35.0
+		"height": 34.0
 	},
 	"input":
 	{
@@ -771,7 +778,7 @@
 	"project": "fcc-twitch-client.sublime-project",
 	"replace":
 	{
-		"height": 66.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":
