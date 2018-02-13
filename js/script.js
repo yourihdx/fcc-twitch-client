@@ -16,24 +16,24 @@ $('#buttons-block').find('.twitch-link').on('click', function () {
 
      if(FILTERFLAG == "ONLINE"){
      	console.log('IT WORKS!');
-     	 $('.card-body.offlinex').css({
+     	 $('.card.offlinex').css({
 	     	display: 'none',
 	     });
-      	$('.card-body.onlinex').css({
+      	$('.card.onlinex').css({
 	     	display: 'block',
 	     });
      } else if (FILTERFLAG == 'OFFLINE') {
-     	$('.card-body.onlinex').css({
+     	$('.card.onlinex').css({
 	     	display: 'none',
 	     });
-     	$('.card-body.offlinex').css({
+     	$('.card.offlinex').css({
 	     	display: 'block',
 	     });
      }else {
-     	$('.card-body.offlinex').css({
+     	$('.card.offlinex').css({
 	     	display: 'block',
 	     });
-     	$('.card-body.onlinex').css({
+     	$('.card.onlinex').css({
 	     	display: 'block',
 	     });
      }
@@ -61,7 +61,7 @@ function get_streamer_data(nickname='ESL_SC2'){
 		console.log(window.LOGOURL);
 
 		var h5 = $('<h5>', {
-			class: "card-title",
+			class: "card-title text-center",
 			html: link
 		});
 
@@ -70,18 +70,20 @@ function get_streamer_data(nickname='ESL_SC2'){
 			html: status,
 		});
 
-		var div_cardborder = $('<div>', {
-			class: "card border-light  text-center"
-		});
-
 		if (status == 'offline') {
 			var id = status + 'x';
 		} else {
 			var id = 'onlinex';
 		}
+
+		var div_cardborder = $('<div>', {
+			class: "card border-dark text-center " + id
+		});
+
+
 		
 		var div_cardbody = $('<div>', {
-			class: "card-body " + id,
+			class: "card-body ",
 
 		});
 
@@ -89,16 +91,15 @@ function get_streamer_data(nickname='ESL_SC2'){
 
 		$.getJSON("https://wind-bow.glitch.me/twitch-api/channels/" + nickname, function(data) {
 		
-		var logo_url = data.logo.toString();
-		
-		var card_image = $('<img>', {
-			class: "rounded float-left",
-			alt: "Card image cap",
-			src: logo_url
-			// "http://lorempixel.com/80/80/technics"
-			});
+			var logo_url = data.logo.toString();
+			
+			var card_image = $('<img>', {
+				class: "rounded float-left",
+				alt: "Card image cap",
+				src: logo_url
+				});
 
-		$(gamer_card).append(card_image);
+			h5.append(card_image);
 
 			});
 		$(gamer_card).appendTo('#main');
@@ -111,6 +112,4 @@ var gamers = ["ESL_SC2", "OgamingSC2", "cretetion", "freecodecamp", "noobs2ninja
 for (var i = gamers.length - 1; i >= 0; i--) {
 	get_streamer_data(gamers[i]);
 }
-
-// http://placeimg.com/80/80/tech/sepia
 
