@@ -18,20 +18,20 @@ function get_streamer_data(nickname='ESL_SC2'){
 	  if (data.stream != null) {
 	  	var game = data.stream.game;
 	  	var status = data.stream.channel.status;
-	  	console.log('ESL_SC2:', data.stream, '\n\n\n', game, status);
+	  	console.log(nickname, data.stream, '\n\n\n', game, status);
 	  }
 	  
 	  else {
-	  	console.log('offline');
+	  	console.log(nickname, 'offline');
 	  }
 	});
 	}
 
-var gamers = [];
+var gamers = ["ESL_SC2", "OgamingSC2", "cretetion", "freecodecamp", "storbeck", "habathcx", "RobotCaleb", "noobs2ninjas"];
 for (var i = gamers.length - 1; i >= 0; i--) {
-	gamers[i]
+	get_streamer_data(gamers[i]);
 }
-get_streamer_data('RobotCaleb');
+
 
 $.getJSON('https://wind-bow.glitch.me/twitch-api/streams/RobotCaleb?callback=?', function(data) {
   // $('.card-text').text(data);
