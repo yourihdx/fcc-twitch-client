@@ -1,6 +1,6 @@
 console.log('hello');
 
-// filter switcher
+// BEGIN filter switcher
 $('#buttons-block').find('.twitch-link').on('click', function () {
 
      if ($(this).hasClass('active')) {
@@ -11,10 +11,24 @@ $('#buttons-block').find('.twitch-link').on('click', function () {
 
      $(this).addClass('active');
 
-     return($(this).text());
-});
+     var FILTERFLAG = ($(this).text().trim());
+     console.log(FILTERFLAG.length);
 
-// https://wind-bow.glitch.me/twitch-api 
+     if(FILTERFLAG != "OFFLINE"){
+     	console.log('IT WORKS!');
+     	 $('.card-body.offline').css({
+	     	display: 'none',
+	     });
+     } else {
+     	$('.card-body.offline').css({
+	     	display: 'block',
+	     });
+     }
+
+});
+// END filter switcher
+
+// BEGIN get_streamer_data function
 function get_streamer_data(nickname='ESL_SC2'){
 	$.getJSON('https://wind-bow.glitch.me/twitch-api/streams/' + nickname +'?callback=?', function(data) {
 		
@@ -28,38 +42,47 @@ function get_streamer_data(nickname='ESL_SC2'){
 		  	var status = 'offline';
 		  }
 
-	var link = "<a href=\"https://www.twitch.tv/" + nickname + "\">" + nickname + "</a>";
+		var link = "<a href=\"https://www.twitch.tv/" + nickname + "\">" + nickname + "</a>";
 
-	var h5 = $('<h5>', {
-		class: "card-title",
-		html: link
-	});
+		var h5 = $('<h5>', {
+			class: "card-title",
+			html: link
+		});
 
-	var p = $('<p>', {
-		class: "card-text",
-		text: status
-	});
+		var p = $('<p>', {
+			class: "card-text",
+			text: status,
+		});
 
-	var div_cardborder = $('<div>', {
-		class: "card border-light text-center"
-	});
+		var div_cardborder = $('<div>', {
+			class: "card border-light text-center"
+		});
 
-	var div_cardbody = $('<div>', {
-		class: "card-body"
-	});
+		if (status == 'offline') {
+			var id = status;
+		} else {
+			var id ='';
+		}
+		
 
-	var card_image = $('<img>', {
-		class: "rounded float-left",
-		alt: "Card image cap",
-		src: "http://placeimg.com/80/80/tech/sepia"
-	});
+		var div_cardbody = $('<div>', {
+			class: "card-body " + id,
 
-	var gamer_card = div_cardborder.append(div_cardbody.append(card_image).append(h5).append(p));
+		});
 
-	$(gamer_card).appendTo('#main');
+		var card_image = $('<img>', {
+			class: "rounded float-left",
+			alt: "Card image cap",
+			src: "http://placeimg.com/80/80/tech/sepia"
+		});
 
-	});
+		var gamer_card = div_cardborder.append(div_cardbody.append(card_image).append(h5).append(p));
+
+		$(gamer_card).appendTo('#main');
+
+		});
 	}
+// END get_streamer_data function
 
 var gamers = ["ESL_SC2", "OgamingSC2", "cretetion", "freecodecamp", "noobs2ninjas"];
 for (var i = gamers.length - 1; i >= 0; i--) {
