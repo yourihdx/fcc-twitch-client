@@ -20,21 +20,21 @@ $('#buttons-block').find('.twitch-link').on('click', function () {
 	     	display: 'none',
 	     });
       	$('.card.onlinex').css({
-	     	display: 'block',
+	     	display: '',
 	     });
      } else if (FILTERFLAG == 'OFFLINE') {
      	$('.card.onlinex').css({
 	     	display: 'none',
 	     });
      	$('.card.offlinex').css({
-	     	display: 'block',
+	     	display: '',
 	     });
      }else {
      	$('.card.offlinex').css({
-	     	display: 'block',
+	     	display: '',
 	     });
      	$('.card.onlinex').css({
-	     	display: 'block',
+	     	display: '',
 	     });
      }
 
