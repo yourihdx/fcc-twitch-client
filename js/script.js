@@ -19,6 +19,9 @@ $('#buttons-block').find('.twitch-link').on('click', function () {
      	 $('.card-body.offlinex').css({
 	     	display: 'none',
 	     });
+      	$('.card-body.onlinex').css({
+	     	display: 'block',
+	     });
      } else if (FILTERFLAG == 'OFFLINE') {
      	$('.card-body.onlinex').css({
 	     	display: 'none',
@@ -50,22 +53,29 @@ function get_streamer_data(nickname='ESL_SC2'){
 		  	// console.log(nickname, 'offline'); 
 		  	var game = '';
 		  	var status = 'offline';
+		  	console.log(data);
 		  }
 
 		var link = "<a href=\"https://www.twitch.tv/" + nickname + "\">" + nickname + "</a>";
+
+		// $.getJSON("https://wind-bow.glitch.me/twitch-api/channels/" + nickname, function(data) {
+		// 	// console.log(data.logo);
+		// 	logo_url = data.logo.toString();
+		// });
+		// console.log(logo_url);
 
 		var h5 = $('<h5>', {
 			class: "card-title",
 			html: link
 		});
 
-		var p = $('<p>', {
-			class: "card-text",
-			text: status,
+		var span = $('<span>', {
+			class: "card-text text-center",
+			html: status,
 		});
 
 		var div_cardborder = $('<div>', {
-			class: "card border-light text-center"
+			class: "card border-light  text-center"
 		});
 
 		if (status == 'offline') {
@@ -74,7 +84,6 @@ function get_streamer_data(nickname='ESL_SC2'){
 			var id = 'onlinex';
 		}
 		
-
 		var div_cardbody = $('<div>', {
 			class: "card-body " + id,
 
@@ -83,10 +92,10 @@ function get_streamer_data(nickname='ESL_SC2'){
 		var card_image = $('<img>', {
 			class: "rounded float-left",
 			alt: "Card image cap",
-			src: "http://placeimg.com/80/80/tech/sepia"
+			src: "http://lorempixel.com/80/80/technics"
 		});
 
-		var gamer_card = div_cardborder.append(div_cardbody.append(card_image).append(h5).append(p));
+		var gamer_card = div_cardborder.append(div_cardbody.append(card_image).append(h5).append(span));
 
 		$(gamer_card).appendTo('#main');
 

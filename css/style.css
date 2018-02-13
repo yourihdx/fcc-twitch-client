@@ -49,3 +49,8 @@ a:hover {
 	text-decoration: none;
 	}
 
+.jumbotron{
+	margin-bottom: 0.4rem;
+	padding-top: 1.5rem;
+	padding-bottom: 0.4rem;
+}
