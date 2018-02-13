@@ -1,5 +1,6 @@
 console.log('hello');
 
+// filter switcher
 $('#buttons-block').find('.twitch-link').on('click', function () {
 
      if ($(this).hasClass('active')) {
@@ -36,7 +37,7 @@ function get_streamer_data(nickname='ESL_SC2'){
 
 	var p = $('<p>', {
 		class: "card-text",
-		text: (status)
+		text: status
 	});
 
 	var div_cardborder = $('<div>', {
@@ -55,15 +56,7 @@ function get_streamer_data(nickname='ESL_SC2'){
 
 	var gamer_card = div_cardborder.append(div_cardbody.append(card_image).append(h5).append(p));
 
-  // 	  	var gamer_card = "<a href=\"" + link + "\">";
-		// gamer_card += "<div class=\"card border-light text-center\">";		
-		// gamer_card += "<div class=\"card-body\">";
-		// gamer_card += "<img class=\"rounded float-left\" src=\"http://placeimg.com/80/80/tech/sepia\" alt=\"Card image cap\">";
-		// gamer_card += "<h5 class=\"card-title\">" + nickname + "</h5>";
-		// gamer_card += "<p class=\"card-text\">" + game + " : " + status + "</p>";
-		// gamer_card += "</div></div></a>";
-
-		$(gamer_card).appendTo('#main');
+	$(gamer_card).appendTo('#main');
 
 	});
 	}
