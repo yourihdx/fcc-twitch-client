@@ -14,13 +14,23 @@ $('#buttons-block').find('.twitch-link').on('click', function () {
      var FILTERFLAG = ($(this).text().trim());
      console.log(FILTERFLAG.length);
 
-     if(FILTERFLAG != "OFFLINE"){
+     if(FILTERFLAG == "ONLINE"){
      	console.log('IT WORKS!');
-     	 $('.card-body.offline').css({
+     	 $('.card-body.offlinex').css({
 	     	display: 'none',
 	     });
-     } else {
-     	$('.card-body.offline').css({
+     } else if (FILTERFLAG == 'OFFLINE') {
+     	$('.card-body.onlinex').css({
+	     	display: 'none',
+	     });
+     	$('.card-body.offlinex').css({
+	     	display: 'block',
+	     });
+     }else {
+     	$('.card-body.offlinex').css({
+	     	display: 'block',
+	     });
+     	$('.card-body.onlinex').css({
 	     	display: 'block',
 	     });
      }
@@ -59,9 +69,9 @@ function get_streamer_data(nickname='ESL_SC2'){
 		});
 
 		if (status == 'offline') {
-			var id = status;
+			var id = status + 'x';
 		} else {
-			var id ='';
+			var id = 'onlinex';
 		}
 		
 
