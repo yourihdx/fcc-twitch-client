@@ -53,16 +53,12 @@ function get_streamer_data(nickname='ESL_SC2'){
 		  	// console.log(nickname, 'offline'); 
 		  	var game = '';
 		  	var status = 'offline';
-		  	console.log(data);
+		  	// console.log(data);
 		  }
 
 		var link = "<a href=\"https://www.twitch.tv/" + nickname + "\">" + nickname + "</a>";
 
-		// $.getJSON("https://wind-bow.glitch.me/twitch-api/channels/" + nickname, function(data) {
-		// 	// console.log(data.logo);
-		// 	logo_url = data.logo.toString();
-		// });
-		// console.log(logo_url);
+		console.log(window.LOGOURL);
 
 		var h5 = $('<h5>', {
 			class: "card-title",
@@ -89,14 +85,22 @@ function get_streamer_data(nickname='ESL_SC2'){
 
 		});
 
+		var gamer_card = div_cardborder.append(div_cardbody.append(h5).append(span));
+
+		$.getJSON("https://wind-bow.glitch.me/twitch-api/channels/" + nickname, function(data) {
+		
+		var logo_url = data.logo.toString();
+		
 		var card_image = $('<img>', {
 			class: "rounded float-left",
 			alt: "Card image cap",
-			src: "http://lorempixel.com/80/80/technics"
-		});
+			src: logo_url
+			// "http://lorempixel.com/80/80/technics"
+			});
 
-		var gamer_card = div_cardborder.append(div_cardbody.append(card_image).append(h5).append(span));
+		$(gamer_card).append(card_image);
 
+			});
 		$(gamer_card).appendTo('#main');
 
 		});
