@@ -16,26 +16,27 @@ $('#buttons-block').find('.twitch-link').on('click', function () {
 // https://wind-bow.glitch.me/twitch-api 
 function get_streamer_data(nickname='ESL_SC2'){
 	$.getJSON('https://wind-bow.glitch.me/twitch-api/streams/' + nickname +'?callback=?', function(data) {
-		var link = 'https://www.twitch.tv/' + nickname;	
+		
 	  	if (data.stream != null) {
 		  	var game = data.stream.game;
 		  	var status = data.stream.channel.status;
-	  	
-	  }
-	  else {
-	  	// console.log(nickname, 'offline'); 
-	  	var game = '';
-	  	var status = 'offline';
-	  }
+	  	}
+		  else {
+		  	// console.log(nickname, 'offline'); 
+		  	var game = '';
+		  	var status = 'offline';
+		  }
+
+	var link = "<a href=\"https://www.twitch.tv/" + nickname + "\">" + nickname + "</a>";
 
 	var h5 = $('<h5>', {
 		class: "card-title",
-		text: nickname
+		html: link
 	});
 
 	var p = $('<p>', {
 		class: "card-text",
-		text: (game + " : " + status)
+		text: (status)
 	});
 
 	var div_cardborder = $('<div>', {
@@ -48,11 +49,11 @@ function get_streamer_data(nickname='ESL_SC2'){
 
 	var card_image = $('<img>', {
 		class: "rounded float-left",
+		alt: "Card image cap",
 		src: "http://placeimg.com/80/80/tech/sepia"
 	});
 
-
-	var gamer_card = div_cardborder.append(div_cardbody).append(card_image).append(h5).append(p);
+	var gamer_card = div_cardborder.append(div_cardbody.append(card_image).append(h5).append(p));
 
   // 	  	var gamer_card = "<a href=\"" + link + "\">";
 		// gamer_card += "<div class=\"card border-light text-center\">";		
