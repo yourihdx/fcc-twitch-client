@@ -12,11 +12,26 @@ $('#buttons-block').find('.twitch-link').on('click', function () {
 });
 
 // https://wind-bow.glitch.me/twitch-api 
+function get_streamer_data(nickname='ESL_SC2'){
+	$.getJSON('https://wind-bow.glitch.me/twitch-api/streams/' + nickname +'?callback=?', function(data) {
+	  // $('.card-text').text(data);
+	  if (data.stream != null) {
+	  	var game = data.stream.game;
+	  	var status = data.stream.channel.status;
+	  	console.log('ESL_SC2:', data.stream, '\n\n\n', game, status);
+	  }
+	  
+	  else {
+	  	console.log('offline');
+	  }
+	});
+	}
 
-$.getJSON('https://wind-bow.glitch.me/twitch-api/streams/ESL_SC2?callback=?', function(data) {
-  // $('.card-text').text(data);
-  console.log('ESL_SC2:', data.stream);
-});
+var gamers = [];
+for (var i = gamers.length - 1; i >= 0; i--) {
+	gamers[i]
+}
+get_streamer_data('RobotCaleb');
 
 $.getJSON('https://wind-bow.glitch.me/twitch-api/streams/RobotCaleb?callback=?', function(data) {
   // $('.card-text').text(data);
