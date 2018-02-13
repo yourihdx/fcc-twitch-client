@@ -60,7 +60,7 @@ function get_streamer_data(nickname='ESL_SC2'){
 
 		console.log(window.LOGOURL);
 
-		var h5 = $('<h5>', {
+		var h5 = $('<h3>', {
 			class: "card-title text-center",
 			html: link
 		});
